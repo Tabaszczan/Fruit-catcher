@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fruit
   layers:
   - Default
   - TransparentFX
@@ -13,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Car
+  - Player
+  - Fruit
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2626480317
+    locked: 0
+  - name: Foreground
+    uniqueID: 31827745
+    locked: 0
+  - name: Player
+    uniqueID: 2354245397
+    locked: 0
+  - name: Fruit
+    uniqueID: 1662009379
     locked: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4994230355230493432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4994230355230493414}
+  - component: {fileID: 4994230355230493433}
+  m_Layer: 0
+  m_Name: Fruit launcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4994230355230493414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994230355230493432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.53, y: -2.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4994230355230493433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994230355230493432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0978de2e357196a4883e727b6d79580e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flyingObjecList:
+  - {fileID: 5911562533345350286, guid: 58bb042dfce05c447ac0dde41b38455d, type: 3}
+  - {fileID: 4656318029866997952, guid: 0846f131567556346806d303f647c540, type: 3}
+  - {fileID: 9010322263574826389, guid: e45af493c4ef1794dbac62cea801aab8, type: 3}
+  - {fileID: 5862088286958184877, guid: 6836dae5418cb88448a4547f98baaa58, type: 3}
+  - {fileID: 6463120273280491657, guid: 30502a7b21d0fae4a9b57bc09fd44f12, type: 3}
+  - {fileID: 4482755809017402225, guid: ffecdc2ac50eee54780da09bde48d36f, type: 3}
+  - {fileID: 3488575396403700724, guid: 6ff8a2545cf798d4fb4ae3d6576c1d5f, type: 3}
+  - {fileID: 1753850867231022287, guid: 89accfd19a654764099ab55115884aba, type: 3}
+  - {fileID: 3937796799384958633, guid: 5fb17a7c76ea54041aa6e207f2716153, type: 3}
+  - {fileID: 8721434264776256022, guid: d607868a55f38d84a8fb702a23961be9, type: 3}
+  delay: 0.4
