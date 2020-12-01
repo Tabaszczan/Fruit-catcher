@@ -768,7 +768,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A or \u2190 TO GO LEFT\nD or \u2192 TO GO RIGHT\nSPACE TO JUMP"
+  m_text: "A or \u2190 TO GO LEFT\nD or \u2192 TO GO RIGHT\nSPACE TO JUMP  \nSTAY
+    ON CAR AND DON'T FALL OFF"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75a73f2eb3412144bafe07b1dd817dd6, type: 2}
   m_sharedMaterial: {fileID: -1126807041607344519, guid: 75a73f2eb3412144bafe07b1dd817dd6,
@@ -796,7 +797,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.8
+  m_fontSize: 46.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2240,3 +2241,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093844596}
   m_CullTransparentMesh: 0
+--- !u!1001 &6090831279058354260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.518784
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8418664
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 120.77633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370202, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040329327011370204, guid: a4825170f501b7643886a86af24602a3,
+        type: 3}
+      propertyPath: m_Name
+      value: MusicPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4825170f501b7643886a86af24602a3, type: 3}

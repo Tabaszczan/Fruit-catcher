@@ -8,6 +8,7 @@ public class FruitLauncher : MonoBehaviour
     private float thrust = 10.0f;
     private GameObject randomItem;
     private GameObject clone;
+    private int rand;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +29,24 @@ public class FruitLauncher : MonoBehaviour
         {
             while (true)
             {
-                
-                randomItem = flyingObjecList[Random.Range(0, flyingObjecList.Count)];
-                clone = Instantiate(randomItem, transform);
+                rand = Random.Range(0, flyingObjecList.Count);
+                if (rand == flyingObjecList.Count)
+                {
+                    if (Random.value >= 0.98)
+                    {
+                        randomItem = flyingObjecList[rand];
+                        
+                    }
+                    else
+                    {
+                        randomItem = flyingObjecList[Random.Range(0, flyingObjecList.Count - 1)];
+                    }
+                }
+                else
+                {
+                    randomItem = flyingObjecList[rand];
+                }
+            clone = Instantiate(randomItem, transform);
                 clone.GetComponent<Rigidbody2D>().AddForce(
                     new Vector2(
                         thrust * clone.GetComponent<Rigidbody2D>().mass * -Random.Range(60,100),

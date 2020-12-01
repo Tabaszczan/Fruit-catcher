@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 0
   m_Name: Fruit launcher
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -49,9 +49,8 @@ MonoBehaviour:
   - {fileID: 9010322263574826389, guid: e45af493c4ef1794dbac62cea801aab8, type: 3}
   - {fileID: 5862088286958184877, guid: 6836dae5418cb88448a4547f98baaa58, type: 3}
   - {fileID: 6463120273280491657, guid: 30502a7b21d0fae4a9b57bc09fd44f12, type: 3}
-  - {fileID: 4482755809017402225, guid: ffecdc2ac50eee54780da09bde48d36f, type: 3}
+  - {fileID: 8721434264776256022, guid: d607868a55f38d84a8fb702a23961be9, type: 3}
   - {fileID: 3488575396403700724, guid: 6ff8a2545cf798d4fb4ae3d6576c1d5f, type: 3}
   - {fileID: 1753850867231022287, guid: 89accfd19a654764099ab55115884aba, type: 3}
   - {fileID: 3937796799384958633, guid: 5fb17a7c76ea54041aa6e207f2716153, type: 3}
-  - {fileID: 8721434264776256022, guid: d607868a55f38d84a8fb702a23961be9, type: 3}
-  delay: 0.4
+  - {fileID: 4482755809017402225, guid: ffecdc2ac50eee54780da09bde48d36f, type: 3}

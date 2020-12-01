@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4930007490386134907}
   m_Layer: 0
   m_Name: Wind
-  m_TagString: Untagged
+  m_TagString: Wind
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4930007490386134788}
-  m_LocalRotation: {x: -0.5033317, y: -0.496646, z: 0.496646, w: 0.5033317}
+  m_LocalRotation: {x: -0.5033313, y: -0.49664658, z: 0.49664637, w: 0.50333107}
   m_LocalPosition: {x: 16.38, y: 1.35, z: -6.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4705,6 +4705,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
