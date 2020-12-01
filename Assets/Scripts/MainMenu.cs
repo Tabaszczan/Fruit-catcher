@@ -11,23 +11,19 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(level);
     }
 
-    public void GameOver()
+    public void ResetGame()
     {
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene(level);
+        FindObjectOfType<GameSession>().ResetGame();
     }
 
     public void OpenMainMenu()
     {
         SceneManager.LoadScene("Start Menu");
     }
-
     public void OpenOptions()
     {
-
-    }
-
-    public void CloseOptions()
-    {
+        SceneManager.LoadScene("Options");
 
     }
 

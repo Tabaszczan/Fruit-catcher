@@ -251,3 +251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 17
+  sfClips:
+  - {fileID: 8770009945830487774, guid: b3c5a4bddeca1024c96b74898b0552ea, type: 3}
+  - {fileID: 2176980835718768275, guid: 8cca40dccb7b5d245af652400291d1fe, type: 3}

@@ -20,10 +20,6 @@ public class PlayerController : MonoBehaviour
     private int extraJump;
     public int extraJumpValue;
 
-   
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -69,10 +65,9 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up * jumpforce;
         }
     }
-
+    
     void OnBecameInvisible()
     {
-       Destroy(gameObject);
-       SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("Game Over");
     }
 }
